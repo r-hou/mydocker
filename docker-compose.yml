@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ore:
+    image: registry.us-west-1.aliyuncs.com/wankkoree/ore:80-aa9e4be
+    restart: always
+    command:  --rpc https://solitary-hidden-sanctuary.solana-mainnet.quiknode.pro/635689764316a853024af6f26ec85b076b7b055f/ --private-key 私钥 --priority-fee 6000000 mine --threads 8
+  ore2:
+    image: registry.us-west-1.aliyuncs.com/wankkoree/ore:80-aa9e4be
+    restart: always
+    command:  --rpc https://solitary-hidden-sanctuary.solana-mainnet.quiknode.pro/635689764316a853024af6f26ec85b076b7b055f/ --private-key 私钥 --priority-fee 6000000 mine --threads 8
