@@ -3,8 +3,8 @@ services:
   ore:
     image: registry.us-west-1.aliyuncs.com/wankkoree/ore:80-aa9e4be
     restart: always
-    command:  --rpc https://solitary-hidden-sanctuary.solana-mainnet.quiknode.pro/635689764316a853024af6f26ec85b076b7b055f/ --private-key 私钥 --priority-fee 6000000 mine --threads 8
+    command:  --rpc https://nameless-cosmological-film.solana-mainnet.quiknode.pro/1d354d2f8d4e0fecc30f21bb74aa45d1fb7b75ee/ --private-key xxxxxxxxxx --priority-fee 6000000 mine --threads 8
   ore2:
     image: registry.us-west-1.aliyuncs.com/wankkoree/ore:80-aa9e4be
     restart: always
-    command:  --rpc https://solitary-hidden-sanctuary.solana-mainnet.quiknode.pro/635689764316a853024af6f26ec85b076b7b055f/ --private-key 私钥 --priority-fee 6000000 mine --threads 8
+    command:  --rpc https://nameless-cosmological-film.solana-mainnet.quiknode.pro/1d354d2f8d4e0fecc30f21bb74aa45d1fb7b75ee/ --private-key xxxxxxxxxx --priority-fee 6000000 mine --threads 8
