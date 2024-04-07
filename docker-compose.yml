@@ -3,8 +3,8 @@ services:
   ore:
     image: registry.us-west-1.aliyuncs.com/wankkoree/ore:82-3ffb235
     restart: always
-    command:  --rpc https://nameless-cosmological-film.solana-mainnet.quiknode.pro/1d354d2f8d4e0fecc30f21bb74aa45d1fb7b75ee/ --private-key xxxxxxxxxx --priority-fee 35000000 mine --threads 2
+    command:  --rpc https://nameless-cosmological-film.solana-mainnet.quiknode.pro/1d354d2f8d4e0fecc30f21bb74aa45d1fb7b75ee/ --private-key xxxxxxxxxx --priority-fee 31000000 mine --threads 2
   ore2:
     image: registry.us-west-1.aliyuncs.com/wankkoree/ore:82-3ffb235
     restart: always
-    command:  --rpc https://nameless-cosmological-film.solana-mainnet.quiknode.pro/1d354d2f8d4e0fecc30f21bb74aa45d1fb7b75ee/ --private-key pppppppppp --priority-fee 35000000 mine --threads 2
+    command:  --rpc https://nameless-cosmological-film.solana-mainnet.quiknode.pro/1d354d2f8d4e0fecc30f21bb74aa45d1fb7b75ee/ --private-key pppppppppp --priority-fee 31000000 mine --threads 2
